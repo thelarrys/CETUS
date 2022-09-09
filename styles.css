@@ -1,0 +1,149 @@
+
+
+
+.text-aevos[data-v-6d59229e] 
+{
+    font-family: Space Grotesk;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 154.1%;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #ededed;
+}
+
+.text-10px {
+    font-size: 0.8em;
+}
+
+.text-center, [text~="center"] 
+{
+    text-align: center;
+}
+
+.pt-4 {
+    padding-top: 6rem;
+}
+
+.px-4, [p~="x4"] {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+header 
+{
+    display: flex;
+    align-items: center;
+}
+
+.socials 
+{
+    margin-left: auto;
+}
+
+.socials a 
+{
+    display: inline-block;
+    margin-left: 16px;
+}
+
+main 
+{
+    margin-top: 50px;
+    text-align: center;
+    padding: 0;
+}
+
+.button 
+{
+    
+    display: inline-block;
+    position: relative;
+    padding: 16px 32px;
+    background-color: var(--color-dark-blue);
+    border: 3px solid rgb(54, 54, 54);
+    border-radius: 30px;
+    transition: background-color 0.2s ease;
+}
+
+.text 
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.text:before 
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+body 
+{
+      
+    background-image: url("bgblack.png");
+    background-color: #ffffff;
+
+
+}
+
+* {
+    font-family: "SF Compact";
+  }
+
+
+  
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+html 
+{
+    padding: 0px;
+}
+
+:root {
+    --color-blue: #000000;
+    --color-light-blue: #6d7072;
+    --color-dark-blue: #ffffff;
+    --color-twitter: #ffffff;
+    --color-discord: #ffffff; 
+  }
+
+  .logocetus {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    padding-top: 0px;
+
+  }
+
+
+a:hover
+{
+    color: grey
+}
+
+.binaire
+{
+font-size: 0.6em;
+}
+
+.testhide
+{
+    font-size: 1em;
+    padding-top: 100%;
+}
